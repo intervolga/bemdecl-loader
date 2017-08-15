@@ -173,7 +173,7 @@ describe('bem-deps', () => {
 
       expect(elapsed).to.be.an('array');
       expect(elapsed[0]).to.be(0);
-      expect(elapsed[1] / 1000000).to.be.below(250);
+      expect(elapsed[1] / 1000000).to.be.below(350);
     });
   });
 

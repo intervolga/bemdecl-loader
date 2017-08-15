@@ -1,6 +1,6 @@
 {
   "name": "@intervolga/bemdecl-loader",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "description": "BEMDECL (https://en.bem.info/methodology/declarations/) loader for WebPack 2+",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "@bem/deps": "^0.2.2",
-    "@bem/naming": "^2.0.0-6",
     "loader-utils": "^1.1.0",
     "node-eval": "^1.1.0"
   },
