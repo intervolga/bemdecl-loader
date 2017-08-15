@@ -1,0 +1,2346 @@
+[
+  {
+    "block": "page"
+  },
+  {
+    "block": "i-bem-dom"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "init"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "i-bem"
+  },
+  {
+    "block": "jquery"
+  },
+  {
+    "block": "loader"
+  },
+  {
+    "block": "loader",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "page",
+    "elem": "js"
+  },
+  {
+    "block": "loader",
+    "mod": {
+      "name": "type",
+      "val": "js"
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "config"
+  },
+  {
+    "block": "ua"
+  },
+  {
+    "block": "objects"
+  },
+  {
+    "block": "functions"
+  },
+  {
+    "block": "dom"
+  },
+  {
+    "block": "inherit"
+  },
+  {
+    "block": "identify"
+  },
+  {
+    "block": "next-tick"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events",
+    "mod": {
+      "name": "type",
+      "val": "dom"
+    }
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events",
+    "mod": {
+      "name": "type",
+      "val": "bem"
+    }
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "collection"
+  },
+  {
+    "block": "i-bem",
+    "elem": "collection"
+  },
+  {
+    "block": "events"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "init",
+    "mod": {
+      "name": "auto",
+      "val": true
+    }
+  },
+  {
+    "block": "page",
+    "elem": "css"
+  },
+  {
+    "block": "i-bem",
+    "elem": "internal"
+  },
+  {
+    "block": "page",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "page",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "ua",
+    "elem": "svg"
+  },
+  {
+    "block": "page",
+    "elem": "meta"
+  },
+  {
+    "block": "p"
+  },
+  {
+    "block": "header"
+  },
+  {
+    "block": "content"
+  },
+  {
+    "block": "jquery",
+    "elem": "event"
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": "pointernative"
+    }
+  },
+  {
+    "block": "link"
+  },
+  {
+    "block": "control"
+  },
+  {
+    "block": "link",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": "pointer"
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": "pointerclick"
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": "pointerpressrelease"
+    }
+  },
+  {
+    "block": "keyboard",
+    "elem": "codes"
+  },
+  {
+    "block": "table"
+  },
+  {
+    "block": "table",
+    "elem": "row"
+  },
+  {
+    "block": "table",
+    "elem": "title"
+  },
+  {
+    "block": "table",
+    "elem": "cell"
+  },
+  {
+    "block": "menu"
+  },
+  {
+    "block": "menu",
+    "elem": "group-title"
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "elem": "item"
+  },
+  {
+    "block": "menu",
+    "elem": "group"
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "elem": "item",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "menu",
+    "elem": "item",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "mode",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "mode",
+      "val": "check"
+    }
+  },
+  {
+    "block": "icon"
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": true
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": "twitter"
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": "vk"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "line"
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "input"
+  },
+  {
+    "block": "idle"
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "elem": "box"
+  },
+  {
+    "block": "input",
+    "elem": "control"
+  },
+  {
+    "block": "tick"
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "has-clear",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "elem": "clear"
+  },
+  {
+    "block": "button"
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "hovered",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "pressed",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "elem": "text"
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "action",
+      "val": true
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "action",
+      "val": "download"
+    }
+  },
+  {
+    "block": "spin"
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "xs"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "visible",
+      "val": true
+    }
+  },
+  {
+    "block": "radio"
+  },
+  {
+    "block": "radio-group"
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "checked",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "elem": "box"
+  },
+  {
+    "block": "radio",
+    "elem": "control"
+  },
+  {
+    "block": "radio",
+    "elem": "text"
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "togglable",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "togglable",
+      "val": "radio"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "type",
+      "val": "button"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "type",
+      "val": "button"
+    }
+  },
+  {
+    "block": "checkbox"
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "checked",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "elem": "box"
+  },
+  {
+    "block": "checkbox",
+    "elem": "control"
+  },
+  {
+    "block": "checkbox",
+    "elem": "text"
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "togglable",
+      "val": "check"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "type",
+      "val": "button"
+    }
+  },
+  {
+    "block": "popup"
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "target",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown"
+  },
+  {
+    "block": "dropdown",
+    "elem": "switcher"
+  },
+  {
+    "block": "functions",
+    "elem": "throttle"
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "visible",
+      "val": true
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "autoclosable",
+      "val": true
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "target",
+      "val": "anchor"
+    }
+  },
+  {
+    "block": "z-index-group"
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "switcher",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "elem": "switcher",
+    "mod": {
+      "name": "switcher",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "switcher",
+      "val": "button"
+    }
+  },
+  {
+    "block": "dropdown",
+    "elem": "switcher",
+    "mod": {
+      "name": "switcher",
+      "val": "button"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "switcher",
+      "val": "link"
+    }
+  },
+  {
+    "block": "dropdown",
+    "elem": "switcher",
+    "mod": {
+      "name": "switcher",
+      "val": "link"
+    }
+  },
+  {
+    "block": "link",
+    "mod": {
+      "name": "pseudo",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "select"
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "elem": "control"
+  },
+  {
+    "block": "select",
+    "elem": "button"
+  },
+  {
+    "block": "select",
+    "elem": "menu"
+  },
+  {
+    "block": "strings",
+    "elem": "escape"
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "mode",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "mode",
+      "val": "radio-check"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "mode",
+      "val": "radio-check"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "footer"
+  },
+  {
+    "block": "page"
+  },
+  {
+    "block": "i-bem-dom"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "init"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "i-bem"
+  },
+  {
+    "block": "jquery"
+  },
+  {
+    "block": "loader"
+  },
+  {
+    "block": "loader",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "page",
+    "elem": "js"
+  },
+  {
+    "block": "loader",
+    "mod": {
+      "name": "type",
+      "val": "js"
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "config"
+  },
+  {
+    "block": "ua"
+  },
+  {
+    "block": "objects"
+  },
+  {
+    "block": "functions"
+  },
+  {
+    "block": "dom"
+  },
+  {
+    "block": "inherit"
+  },
+  {
+    "block": "identify"
+  },
+  {
+    "block": "next-tick"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events",
+    "mod": {
+      "name": "type",
+      "val": "dom"
+    }
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events",
+    "mod": {
+      "name": "type",
+      "val": "bem"
+    }
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "collection"
+  },
+  {
+    "block": "i-bem",
+    "elem": "collection"
+  },
+  {
+    "block": "events"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "init",
+    "mod": {
+      "name": "auto",
+      "val": true
+    }
+  },
+  {
+    "block": "page",
+    "elem": "css"
+  },
+  {
+    "block": "i-bem",
+    "elem": "internal"
+  },
+  {
+    "block": "page",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "page",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "ua",
+    "elem": "svg"
+  },
+  {
+    "block": "page",
+    "elem": "meta"
+  },
+  {
+    "block": "p"
+  },
+  {
+    "block": "header"
+  },
+  {
+    "block": "content"
+  },
+  {
+    "block": "jquery",
+    "elem": "event"
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": "pointernative"
+    }
+  },
+  {
+    "block": "link"
+  },
+  {
+    "block": "control"
+  },
+  {
+    "block": "link",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": "pointer"
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": "pointerclick"
+    }
+  },
+  {
+    "block": "jquery",
+    "elem": "event",
+    "mod": {
+      "name": "type",
+      "val": "pointerpressrelease"
+    }
+  },
+  {
+    "block": "keyboard",
+    "elem": "codes"
+  },
+  {
+    "block": "table"
+  },
+  {
+    "block": "table",
+    "elem": "row"
+  },
+  {
+    "block": "table",
+    "elem": "title"
+  },
+  {
+    "block": "table",
+    "elem": "cell"
+  },
+  {
+    "block": "menu"
+  },
+  {
+    "block": "menu",
+    "elem": "group-title"
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "elem": "item"
+  },
+  {
+    "block": "menu",
+    "elem": "group"
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "elem": "item",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "menu",
+    "elem": "item",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "mode",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "mode",
+      "val": "check"
+    }
+  },
+  {
+    "block": "icon"
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": true
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": "twitter"
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": "vk"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "line"
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "input"
+  },
+  {
+    "block": "idle"
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "elem": "box"
+  },
+  {
+    "block": "input",
+    "elem": "control"
+  },
+  {
+    "block": "tick"
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "has-clear",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "elem": "clear"
+  },
+  {
+    "block": "button"
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "hovered",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "pressed",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "elem": "text"
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "action",
+      "val": true
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "action",
+      "val": "download"
+    }
+  },
+  {
+    "block": "spin"
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "xs"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "visible",
+      "val": true
+    }
+  },
+  {
+    "block": "radio"
+  },
+  {
+    "block": "radio-group"
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "checked",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "elem": "box"
+  },
+  {
+    "block": "radio",
+    "elem": "control"
+  },
+  {
+    "block": "radio",
+    "elem": "text"
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "togglable",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "togglable",
+      "val": "radio"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "type",
+      "val": "button"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "type",
+      "val": "button"
+    }
+  },
+  {
+    "block": "checkbox"
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "checked",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "elem": "box"
+  },
+  {
+    "block": "checkbox",
+    "elem": "control"
+  },
+  {
+    "block": "checkbox",
+    "elem": "text"
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "togglable",
+      "val": "check"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "type",
+      "val": "button"
+    }
+  },
+  {
+    "block": "popup"
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "target",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown"
+  },
+  {
+    "block": "dropdown",
+    "elem": "switcher"
+  },
+  {
+    "block": "functions",
+    "elem": "throttle"
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "visible",
+      "val": true
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "autoclosable",
+      "val": true
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "target",
+      "val": "anchor"
+    }
+  },
+  {
+    "block": "z-index-group"
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "switcher",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "elem": "switcher",
+    "mod": {
+      "name": "switcher",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "switcher",
+      "val": "button"
+    }
+  },
+  {
+    "block": "dropdown",
+    "elem": "switcher",
+    "mod": {
+      "name": "switcher",
+      "val": "button"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "switcher",
+      "val": "link"
+    }
+  },
+  {
+    "block": "dropdown",
+    "elem": "switcher",
+    "mod": {
+      "name": "switcher",
+      "val": "link"
+    }
+  },
+  {
+    "block": "link",
+    "mod": {
+      "name": "pseudo",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "select"
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "elem": "control"
+  },
+  {
+    "block": "select",
+    "elem": "button"
+  },
+  {
+    "block": "select",
+    "elem": "menu"
+  },
+  {
+    "block": "strings",
+    "elem": "escape"
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "mode",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "mode",
+      "val": "radio-check"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "mode",
+      "val": "radio-check"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "footer"
+  }
+]

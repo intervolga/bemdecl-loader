@@ -1,0 +1,718 @@
+[
+  {
+    "block": "page"
+  },
+  {
+    "block": "page",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "page",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "page",
+    "elem": "meta"
+  },
+  {
+    "block": "page",
+    "elem": "css"
+  },
+  {
+    "block": "page",
+    "elem": "js"
+  },
+  {
+    "block": "header"
+  },
+  {
+    "block": "content"
+  },
+  {
+    "block": "link"
+  },
+  {
+    "block": "table"
+  },
+  {
+    "block": "table",
+    "elem": "row"
+  },
+  {
+    "block": "table",
+    "elem": "title"
+  },
+  {
+    "block": "table",
+    "elem": "cell"
+  },
+  {
+    "block": "menu"
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "menu",
+    "elem": "item"
+  },
+  {
+    "block": "menu",
+    "elem": "group"
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "mode",
+      "val": true
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "mode",
+      "val": "check"
+    }
+  },
+  {
+    "block": "icon"
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": true
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": "twitter"
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "social",
+      "val": "vk"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "menu",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "line"
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "input"
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "has-clear",
+      "val": true
+    }
+  },
+  {
+    "block": "button"
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "action",
+      "val": true
+    }
+  },
+  {
+    "block": "icon",
+    "mod": {
+      "name": "action",
+      "val": "download"
+    }
+  },
+  {
+    "block": "spin"
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "xs"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "visible",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group"
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "type",
+      "val": "button"
+    }
+  },
+  {
+    "block": "checkbox"
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "type",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "type",
+      "val": "button"
+    }
+  },
+  {
+    "block": "dropdown"
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "switcher",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "switcher",
+      "val": "button"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "popup"
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "popup",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "select"
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "mode",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "mode",
+      "val": "radio-check"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "s"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "radio"
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "theme",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "theme",
+      "val": "islands"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "checked",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "checked",
+      "val": true
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "m"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "l"
+    }
+  },
+  {
+    "block": "line",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "input",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "radio-group",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "dropdown",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "select",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "spin",
+    "mod": {
+      "name": "size",
+      "val": "xl"
+    }
+  },
+  {
+    "block": "footer"
+  }
+]

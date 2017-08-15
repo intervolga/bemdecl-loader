@@ -1,0 +1,55 @@
+{
+  "name": "@intervolga/bemdecl-loader",
+  "version": "1.1.1",
+  "description": "BEMDECL (https://en.bem.info/methodology/declarations/) loader for WebPack 2+",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha --ui tdd test/",
+    "lint": "eslint index.js lib test/index.js test/helpers",
+    "test": "npm run lint && npm run mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intervolga/bemdecl-loader.git"
+  },
+  "keywords": [
+    "bemdecl",
+    "webpack",
+    "loader"
+  ],
+  "author": "Shkarupa Alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intervolga/bemdecl-loader/issues"
+  },
+  "homepage": "https://github.com/intervolga/bemdecl-loader#readme",
+  "peerDependencies": {
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "@bem/deps": "^0.2.2",
+    "@bem/naming": "^2.0.0-6",
+    "loader-utils": "^1.1.0",
+    "node-eval": "^1.1.0"
+  },
+  "devDependencies": {
+    "@intervolga/bemjson-loader": "^1.1.0",
+    "@intervolga/eval-loader": "^1.0.1",
+    "bem-components": "^6.0.1",
+    "bem-core": "^4.2.1",
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "expect.js": "^0.3.1",
+    "fs-extra": "^4.0.0",
+    "mocha": "^3.4.2",
+    "webpack": "^3.3.0"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "README",
+    "LICENSE"
+  ]
+}
