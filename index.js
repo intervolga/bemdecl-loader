@@ -4,11 +4,11 @@ const bemDeps = require('@bem/deps');
 const depsForDeps = require('./lib/deps-for-deps');
 
 /**
- * BemDeps loader
+ * BemDecl loader
  *
  * @param {String} source
  */
-function bemDepsLoader(source) {
+function bemDeclLoader(source) {
   const callback = this.async();
 
   // Prepare options
@@ -34,4 +34,4 @@ function bemDepsLoader(source) {
   }).catch(callback);
 }
 
-module.exports = bemDepsLoader;
+module.exports = bemDeclLoader;
