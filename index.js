@@ -4,11 +4,11 @@ const bemDeps = require('@bem/deps');
 const depsForDeps = require('./lib/deps-for-deps');
 
 /**
- * BemDeps loader
+ * BemDecl loader
  *
  * @param {String} source
  */
-function bemDepsLoader(source) {
+function bemDeclLoader(source) {
   const callback = this.async();
 
   // Prepare options
@@ -20,6 +20,15 @@ function bemDepsLoader(source) {
   // Load deps
   const self = this;
   bemDeps.load({levels: options.levels}).then((relations) => {
+    // Sort relations to have deterministic result
+    relations = relations.map((item) => {
+      return [JSON.stringify(item), item];
+    }).sort(function(a, b) {
+      return a===b ? 0 : a[0] > b[0] ? 1 : -1;
+    }).map((mapped) => {
+      return mapped[1];
+    });
+
     const bemDecl = nodeEval(source);
 
     // Resolve deps
@@ -34,4 +43,4 @@ function bemDepsLoader(source) {
   }).catch(callback);
 }
 
-module.exports = bemDepsLoader;
+module.exports = bemDeclLoader;
