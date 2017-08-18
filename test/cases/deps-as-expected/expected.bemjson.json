@@ -3,11 +3,10 @@
     "block": "page"
   },
   {
-    "block": "i-bem-dom"
+    "block": "i-bem"
   },
   {
-    "block": "i-bem-dom",
-    "elem": "init"
+    "block": "i-bem-dom"
   },
   {
     "block": "i-bem-dom",
@@ -22,12 +21,6 @@
     }
   },
   {
-    "block": "i-bem"
-  },
-  {
-    "block": "jquery"
-  },
-  {
     "block": "loader"
   },
   {
@@ -38,67 +31,11 @@
     }
   },
   {
-    "block": "page",
-    "elem": "css"
-  },
-  {
-    "block": "loader",
-    "mod": {
-      "name": "type",
-      "val": "js"
-    }
-  },
-  {
-    "block": "jquery",
-    "elem": "config"
-  },
-  {
-    "block": "ua"
-  },
-  {
-    "block": "objects"
-  },
-  {
-    "block": "functions"
-  },
-  {
-    "block": "dom"
-  },
-  {
-    "block": "inherit"
-  },
-  {
-    "block": "identify"
-  },
-  {
-    "block": "next-tick"
+    "block": "jquery"
   },
   {
     "block": "i-bem-dom",
-    "elem": "events",
-    "mod": {
-      "name": "type",
-      "val": "dom"
-    }
-  },
-  {
-    "block": "i-bem-dom",
-    "elem": "events",
-    "mod": {
-      "name": "type",
-      "val": "bem"
-    }
-  },
-  {
-    "block": "i-bem-dom",
-    "elem": "collection"
-  },
-  {
-    "block": "i-bem",
-    "elem": "collection"
-  },
-  {
-    "block": "events"
+    "elem": "init"
   },
   {
     "block": "i-bem-dom",
@@ -110,11 +47,74 @@
   },
   {
     "block": "page",
-    "elem": "js"
+    "elem": "css"
+  },
+  {
+    "block": "jquery",
+    "elem": "config"
+  },
+  {
+    "block": "loader",
+    "mod": {
+      "name": "type",
+      "val": "js"
+    }
+  },
+  {
+    "block": "objects"
+  },
+  {
+    "block": "ua"
+  },
+  {
+    "block": "functions"
   },
   {
     "block": "i-bem",
     "elem": "internal"
+  },
+  {
+    "block": "identify"
+  },
+  {
+    "block": "inherit"
+  },
+  {
+    "block": "next-tick"
+  },
+  {
+    "block": "dom"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "collection"
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events",
+    "mod": {
+      "name": "type",
+      "val": "bem"
+    }
+  },
+  {
+    "block": "i-bem-dom",
+    "elem": "events",
+    "mod": {
+      "name": "type",
+      "val": "dom"
+    }
+  },
+  {
+    "block": "events"
+  },
+  {
+    "block": "i-bem",
+    "elem": "collection"
+  },
+  {
+    "block": "page",
+    "elem": "js"
   },
   {
     "block": "page",
@@ -145,6 +145,9 @@
     "block": "content"
   },
   {
+    "block": "link"
+  },
+  {
     "block": "jquery",
     "elem": "event"
   },
@@ -165,17 +168,14 @@
     }
   },
   {
-    "block": "link"
-  },
-  {
-    "block": "control"
-  },
-  {
     "block": "link",
     "mod": {
       "name": "disabled",
       "val": true
     }
+  },
+  {
+    "block": "control"
   },
   {
     "block": "jquery",
@@ -229,10 +229,7 @@
   },
   {
     "block": "menu",
-    "mod": {
-      "name": "focused",
-      "val": true
-    }
+    "elem": "group"
   },
   {
     "block": "menu",
@@ -240,7 +237,10 @@
   },
   {
     "block": "menu",
-    "elem": "group"
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
   },
   {
     "block": "menu",
@@ -373,6 +373,14 @@
   },
   {
     "block": "input",
+    "elem": "box"
+  },
+  {
+    "block": "input",
+    "elem": "control"
+  },
+  {
+    "block": "input",
     "mod": {
       "name": "disabled",
       "val": true
@@ -384,14 +392,6 @@
       "name": "focused",
       "val": true
     }
-  },
-  {
-    "block": "input",
-    "elem": "box"
-  },
-  {
-    "block": "input",
-    "elem": "control"
   },
   {
     "block": "input",
@@ -437,6 +437,17 @@
   },
   {
     "block": "button",
+    "elem": "text"
+  },
+  {
+    "block": "button",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
+  },
+  {
+    "block": "button",
     "mod": {
       "name": "focused",
       "val": true
@@ -452,20 +463,9 @@
   {
     "block": "button",
     "mod": {
-      "name": "disabled",
-      "val": true
-    }
-  },
-  {
-    "block": "button",
-    "mod": {
       "name": "pressed",
       "val": true
     }
-  },
-  {
-    "block": "button",
-    "elem": "text"
   },
   {
     "block": "button",
@@ -556,20 +556,6 @@
   {
     "block": "radio",
     "mod": {
-      "name": "disabled",
-      "val": true
-    }
-  },
-  {
-    "block": "radio",
-    "mod": {
-      "name": "checked",
-      "val": true
-    }
-  },
-  {
-    "block": "radio",
-    "mod": {
       "name": "focused",
       "val": true
     }
@@ -585,6 +571,20 @@
   {
     "block": "radio",
     "elem": "text"
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "checked",
+      "val": true
+    }
+  },
+  {
+    "block": "radio",
+    "mod": {
+      "name": "disabled",
+      "val": true
+    }
   },
   {
     "block": "radio-group",
@@ -675,6 +675,25 @@
   },
   {
     "block": "checkbox",
+    "elem": "box"
+  },
+  {
+    "block": "checkbox",
+    "elem": "control"
+  },
+  {
+    "block": "checkbox",
+    "elem": "text"
+  },
+  {
+    "block": "checkbox",
+    "mod": {
+      "name": "checked",
+      "val": true
+    }
+  },
+  {
+    "block": "checkbox",
     "mod": {
       "name": "disabled",
       "val": true
@@ -686,25 +705,6 @@
       "name": "focused",
       "val": true
     }
-  },
-  {
-    "block": "checkbox",
-    "mod": {
-      "name": "checked",
-      "val": true
-    }
-  },
-  {
-    "block": "checkbox",
-    "elem": "box"
-  },
-  {
-    "block": "checkbox",
-    "elem": "control"
-  },
-  {
-    "block": "checkbox",
-    "elem": "text"
   },
   {
     "block": "checkbox",
@@ -773,6 +773,13 @@
     "elem": "switcher"
   },
   {
+    "block": "popup",
+    "mod": {
+      "name": "autoclosable",
+      "val": true
+    }
+  },
+  {
     "block": "functions",
     "elem": "throttle"
   },
@@ -780,13 +787,6 @@
     "block": "popup",
     "mod": {
       "name": "visible",
-      "val": true
-    }
-  },
-  {
-    "block": "popup",
-    "mod": {
-      "name": "autoclosable",
       "val": true
     }
   },
@@ -899,10 +899,7 @@
   },
   {
     "block": "select",
-    "mod": {
-      "name": "focused",
-      "val": true
-    }
+    "elem": "button"
   },
   {
     "block": "select",
@@ -910,11 +907,14 @@
   },
   {
     "block": "select",
-    "elem": "button"
+    "elem": "menu"
   },
   {
     "block": "select",
-    "elem": "menu"
+    "mod": {
+      "name": "focused",
+      "val": true
+    }
   },
   {
     "block": "strings",

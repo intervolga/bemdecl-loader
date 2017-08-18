@@ -192,6 +192,15 @@ describe('bem-deps', () => {
     const declaration = require(path.join(paths.path, 'source.bemjson.json'));
 
     return bemDeps.load({levels: levels}).then((relations) => {
+      // Sort relations to have deterministic result
+      relations = relations.map((item) => {
+        return [JSON.stringify(item), item];
+      }).sort(function(a, b) {
+        return a===b ? 0 : a[0] > b[0] ? 1 : -1;
+      }).map((mapped) => {
+        return mapped[1];
+      });
+
       return bemDeps.resolve(declaration, relations).entities;
     }).then((relations) => {
       const produced = path.join(paths.path, 'produced.bemjson.json');
