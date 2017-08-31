@@ -2,35 +2,10 @@ const fs = require('fs');
 const fse = require('fs-extra');
 const path = require('path');
 const expect = require('expect.js');
-const bemPath = require('../lib/bem-path');
 const bemDeps = require('@bem/deps');
 const depsForDeps = require('../lib/deps-for-deps');
 const runWebpack = require('./helpers/run-webpack');
 const watchWebpack = require('./helpers/watch-webpack');
-
-describe('bem-path', () => {
-  it('should pass simple blocks', () => {
-    const dep = {block: 'page'};
-
-    const result = bemPath(dep, 'js');
-    expect(result).to.be(path.join('page', 'page.js'));
-  });
-
-  it('should resolve paths like @bem/fs-scheme nested+original', () => {
-    const dep = {
-      block: 'page',
-      elem: 'script',
-      mod: {
-        name: 'async',
-        val: 'yes',
-      },
-    };
-
-    const result = bemPath(dep, 'js', 'blocks.common');
-    expect(result).to.be(path.join('blocks.common', 'page', '__script',
-      '_async', 'page__script_async_yes.js'));
-  });
-});
 
 describe('deps-for-deps', () => {
   it('should produce expected output', () => {
@@ -51,22 +26,18 @@ describe('deps-for-deps', () => {
       },
     ];
 
-    const result = depsForDeps(deps, [
-      'test/levels/blocks.01',
+    return depsForDeps(deps, [
+      'test/levels/blocks.base',
+      'test/levels/blocks.common',
       'test/levels/blocks.09',
-    ]).map((p) => {
-      return p.split('bemdecl-loader')[1];
+    ]).then((result) => {
+      expect(result).to.be.an('array');
+      expect(result.length).to.be(5);
+      expect(result.indexOf('_lightbox')).to.be.below(0);
+      expect(result.indexOf('img')).to.be.below(0);
+      expect(result.indexOf('blocks.base')).to.be.below(0);
+      expect(result.indexOf('blocks.common')).to.be.below(0);
     });
-
-    expect(result).to.be.an('array');
-    expect(result.length).to.be(16);
-    expect(result.indexOf('/test/levels/blocks.01')).to.be.above(-1);
-    expect(result.indexOf('/test/levels/blocks.01/page')).to.be.above(-1);
-    expect(result
-      .indexOf('/test/levels/blocks.01/page/__script')).to.be.above(-1);
-    expect(result
-      .indexOf('/test/levels/blocks.01/page/__script/page__script.deps.js'))
-      .to.be.above(-1);
   });
 
   it('should be fast', () => {
@@ -88,12 +59,13 @@ describe('deps-for-deps', () => {
       'test/levels/blocks.09',
       'test/levels/blocks.09',
       'test/levels/blocks.09',
-    ]);
-    const elapsed = process.hrtime(start);
+    ]).then(() => {
+      const elapsed = process.hrtime(start);
 
-    expect(elapsed).to.be.an('array');
-    expect(elapsed[0]).to.be(0);
-    expect(elapsed[1] / 1000000).to.be.below(50);
+      expect(elapsed).to.be.an('array');
+      expect(elapsed[0]).to.be(0);
+      expect(elapsed[1] / 1000000).to.be.below(50);
+    });
   });
 });
 
@@ -235,6 +207,7 @@ describe('bemdeps-loader', () => {
 
     let firstRun = false;
     let firstTimerId = null;
+    let secondRun = false;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -247,7 +220,8 @@ describe('bemdeps-loader', () => {
           firstRun = true;
           fse.copySync(changed, source);
         }, 5000);
-      } else {
+      } else if (!secondRun) {
+        secondRun = true;
         setTimeout(() => {
           expect(result).to.eql(require(paths.expected));
           done();
@@ -272,6 +246,7 @@ describe('bemdeps-loader', () => {
 
     let firstRun = false;
     let firstTimerId = null;
+    let secondRun = false;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -284,7 +259,8 @@ describe('bemdeps-loader', () => {
           firstRun = true;
           fse.removeSync(source);
         }, 5000);
-      } else {
+      } else if (!secondRun) {
+        secondRun = true;
         setTimeout(() => {
           expect(result).to.eql(require(paths.expected));
           done();
@@ -311,6 +287,7 @@ describe('bemdeps-loader', () => {
 
     let firstRun = false;
     let firstTimerId = null;
+    let secondRun = false;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -323,7 +300,8 @@ describe('bemdeps-loader', () => {
           firstRun = true;
           fse.copySync(changed, source);
         }, 5000);
-      } else {
+      } else if (!secondRun) {
+        secondRun = true;
         setTimeout(() => {
           expect(result).to.eql(require(paths.expected));
           done();
@@ -348,6 +326,7 @@ describe('bemdeps-loader', () => {
 
     let firstRun = false;
     let firstTimerId = null;
+    let secondRun = false;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -360,7 +339,8 @@ describe('bemdeps-loader', () => {
           firstRun = true;
           fse.copySync(changed, source);
         }, 5000);
-      } else {
+      } else if (!secondRun) {
+        secondRun = true;
         setTimeout(() => {
           expect(result).to.eql(require(paths.expected));
           done();
@@ -385,6 +365,7 @@ describe('bemdeps-loader', () => {
 
     let firstRun = false;
     let firstTimerId = null;
+    let secondRun = false;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -397,7 +378,8 @@ describe('bemdeps-loader', () => {
           firstRun = true;
           fse.removeSync(source);
         }, 5000);
-      } else {
+      } else if (!secondRun) {
+        secondRun = true;
         setTimeout(() => {
           expect(result).to.eql(require(paths.expected));
           done();

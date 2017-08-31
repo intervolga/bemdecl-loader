@@ -35,11 +35,13 @@ function bemDeclLoader(source) {
     return bemDeps.resolve(bemDecl, relations).entities;
   }).then((bemDeps) => {
     // Mark dependecies
-    depsForDeps(bemDeps, options.levels).forEach((fileName) => {
-      self.addDependency(fileName);
-    });
+    depsForDeps(bemDeps, options.levels).then((dirs) => {
+      dirs.forEach((dirName) => {
+        self.addContextDependency(dirName);
+      });
 
-    callback(null, 'module.exports = ' + JSON.stringify(bemDeps) + ';');
+      callback(null, 'module.exports = ' + JSON.stringify(bemDeps) + ';');
+    }).catch(callback);
   }).catch(callback);
 }
 
