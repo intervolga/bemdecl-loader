@@ -32,7 +32,7 @@ describe('deps-for-deps', () => {
       'test/levels/blocks.09',
     ]).then((result) => {
       expect(result).to.be.an('array');
-      expect(result.length).to.be(5);
+      expect(result.length).to.be(18);
       expect(result.indexOf('_lightbox')).to.be.below(0);
       expect(result.indexOf('img')).to.be.below(0);
       expect(result.indexOf('blocks.base')).to.be.below(0);
@@ -168,7 +168,7 @@ describe('bem-deps', () => {
       relations = relations.map((item) => {
         return [JSON.stringify(item), item];
       }).sort(function(a, b) {
-        return a===b ? 0 : a[0] > b[0] ? 1 : -1;
+        return a === b ? 0 : a[0] > b[0] ? 1 : -1;
       }).map((mapped) => {
         return mapped[1];
       });
@@ -208,6 +208,7 @@ describe('bemdeps-loader', () => {
     let firstRun = false;
     let firstTimerId = null;
     let secondRun = false;
+    let watching;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -223,13 +224,14 @@ describe('bemdeps-loader', () => {
       } else if (!secondRun) {
         secondRun = true;
         setTimeout(() => {
+          watching && watching.close();
           expect(result).to.eql(require(paths.expected));
           done();
         }, 5000);
       }
     };
 
-    watchWebpack(paths.source, cb);
+    watching = watchWebpack(paths.source, cb);
   });
 
   it('should invalidate cache when .dep.js removed', function(done) {
@@ -247,6 +249,7 @@ describe('bemdeps-loader', () => {
     let firstRun = false;
     let firstTimerId = null;
     let secondRun = false;
+    let watching;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -262,13 +265,14 @@ describe('bemdeps-loader', () => {
       } else if (!secondRun) {
         secondRun = true;
         setTimeout(() => {
+          watching && watching.close();
           expect(result).to.eql(require(paths.expected));
           done();
         }, 5000);
       }
     };
 
-    watchWebpack(paths.source, cb);
+    watching = watchWebpack(paths.source, cb);
   });
 
   it('should invalidate cache when .dep.js changed', function(done) {
@@ -288,6 +292,7 @@ describe('bemdeps-loader', () => {
     let firstRun = false;
     let firstTimerId = null;
     let secondRun = false;
+    let watching;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -303,13 +308,14 @@ describe('bemdeps-loader', () => {
       } else if (!secondRun) {
         secondRun = true;
         setTimeout(() => {
+          watching && watching.close();
           expect(result).to.eql(require(paths.expected));
           done();
         }, 5000);
       }
     };
 
-    watchWebpack(paths.source, cb);
+    watching = watchWebpack(paths.source, cb);
   });
 
   it('should invalidate cache when block added', function(done) {
@@ -327,6 +333,7 @@ describe('bemdeps-loader', () => {
     let firstRun = false;
     let firstTimerId = null;
     let secondRun = false;
+    let watching;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -342,13 +349,14 @@ describe('bemdeps-loader', () => {
       } else if (!secondRun) {
         secondRun = true;
         setTimeout(() => {
+          watching && watching.close();
           expect(result).to.eql(require(paths.expected));
           done();
         }, 5000);
       }
     };
 
-    watchWebpack(paths.source, cb);
+    watching = watchWebpack(paths.source, cb);
   });
 
   it('should invalidate cache when block removed', function(done) {
@@ -366,6 +374,7 @@ describe('bemdeps-loader', () => {
     let firstRun = false;
     let firstTimerId = null;
     let secondRun = false;
+    let watching;
     const cb = (result) => {
       expect(typeof result).to.be.a('string');
 
@@ -381,13 +390,14 @@ describe('bemdeps-loader', () => {
       } else if (!secondRun) {
         secondRun = true;
         setTimeout(() => {
+          watching && watching.close();
           expect(result).to.eql(require(paths.expected));
           done();
         }, 5000);
       }
     };
 
-    watchWebpack(paths.source, cb);
+    watching = watchWebpack(paths.source, cb);
   });
 });
 
