@@ -8,7 +8,7 @@ module.exports = (entry, cb) => {
   const config = generateConfig(entry);
   const compiler = webpack(config);
 
-  compiler.watch({
+  const watching = compiler.watch({
     /* watchOptions */
   }, (err, stats) => {
     const we = err ||
@@ -17,6 +17,8 @@ module.exports = (entry, cb) => {
 
     if (we) {
       cb(we);
+      watching.close();
+
       return;
     }
 
@@ -30,6 +32,9 @@ module.exports = (entry, cb) => {
       cb(result);
     } catch (e) {
       cb(e);
+      watching.close();
     }
   });
+
+  return watching;
 };
