@@ -9,7 +9,6 @@ const depsForDeps = require('./lib/deps-for-deps');
  * @param {String} source
  */
 function bemDeclLoader(source) {
-  // this.cacheable(false);
   const callback = this.async();
 
   // Prepare options
